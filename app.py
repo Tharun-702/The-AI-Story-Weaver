@@ -8,7 +8,7 @@ import base64
 import time
 
 # --- CONFIGURATION ---
-genai.configure(api_key="AIzaSyAIBKdeyoO9jjL3oZrj9lO6_brfzUJ5xGo")
+genai.configure(api_key="your gemini api 🗝")
 model = genai.GenerativeModel("gemini-1.5-flash")
 
 st.set_page_config(
@@ -255,4 +255,5 @@ if generate:
 
 # --- FOOTER ---
 st.markdown("---")
+
 st.markdown('<div class="footer">Made with ❤️ for young readers</div>', unsafe_allow_html=True)
